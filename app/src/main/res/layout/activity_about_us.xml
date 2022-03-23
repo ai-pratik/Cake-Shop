@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_us"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bake n’ Flake"
+        android:gravity="left"
+        android:textSize="35sp"
+        android:textColor="#ff0040"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="27sp"
+        android:textColor="#00008b"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bake n' Flake is the name itself, indicates that we design the cakes that exactly suit your choice whatever occasion it’s. We are at your service for some years, but come up with a wide range of cakes and pastries. Mr. Chaitanya Khandale believes in innovation and tries to introduce something new and something different to meet all customer requirements. Our fresh, innovative and tempting cakes attract people."
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We assure you regarding the design of cakes full of cream, which is enough to make you hungry. Just Cakes doubles your excitement. So, it’s hard to wait for a few more minutes to cut a cake. When we deliver your order we not only give a cake, but also we deliver happiness, bliss, and emotions associated with it. Everyone wants to be happy and we think that it is our pleasure to make everyone happy rather we would say it is our hobby or tradition."
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="So order our well designed and delicious cakes and be the point of attraction for your celebration!"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

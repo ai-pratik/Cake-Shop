@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1095668928281",
+    "project_id": "bakeryapp-f2196",
+    "storage_bucket": "bakeryapp-f2196.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095668928281:android:15a890af9721d6d4d13f88",
+        "android_client_info": {
+          "package_name": "com.example.bakeryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095668928281-nv6089hd21vm3vbuh3u1rnjqb9st9akc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBumivhlXHBJ0joRPWnc5Jr7WiWKSxTSgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095668928281-nv6089hd21vm3vbuh3u1rnjqb9st9akc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

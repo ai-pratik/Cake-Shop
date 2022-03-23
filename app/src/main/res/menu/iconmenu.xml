@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/menu_home"
+      android:icon="@drawable/ic_home_black_24dp"
+      android:title="Home"/>
+  <item android:id="@+id/menu_aboutus"
+      android:icon="@drawable/ic_cake_black_24dp"
+      android:title="About us"/>
+    <item android:id="@+id/menu_call"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="Contact us"/>
+  <item android:id="@+id/menu_logout"
+      android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+      android:title="Logout"/>
+
+</menu>
