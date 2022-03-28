@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PaymentGateway">
+    tools:context=".Payment_Gateway">
 
 
     <EditText
+        android:id="@+id/edt1"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:hint="Enter Amount"
         android:layout_marginTop="50dp"
+        android:layout_gravity="center"
         android:gravity="center"
-        android:layout_marginLeft="20dp"
         android:textSize="20sp"
         />
 
@@ -22,9 +23,10 @@
         android:id="@+id/btn1"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="Pay"
+        android:text="payment"
         android:layout_gravity="center"
-        />
+        android:layout_marginTop="50dp"/>
+
 
 
 </LinearLayout>

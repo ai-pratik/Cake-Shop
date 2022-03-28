@@ -176,15 +176,15 @@ public class Selected_item extends AppCompatActivity {
     }
     public void buy(View view) {
 
-        if (isConnectingToInternet()){
-            FirebaseDatabase database = FirebaseDatabase.getInstance();
-            myRef = database.getReference("Orders");
-            DatabaseReference child2 = myRef.child(userId);
-            child2.child("date").push().setValue(thisDate);
-            child2.child("product").push().setValue(model.getProductName());
-            child2.child("price").push().setValue(model.getProductPrice());
-            child2.child("address").push().setValue(address);
-            Intent intent  = new Intent(Selected_item.this, Placed_order.class);
+       if (isConnectingToInternet()){
+            //FirebaseDatabase database = FirebaseDatabase.getInstance();
+            //myRef = database.getReference("Orders");
+           //DatabaseReference child2 = myRef.child(userId);
+           //child2.child("date").push().setValue(thisDate);
+           //child2.child("product").push().setValue(model.getProductName());
+           //child2.child("price").push().setValue(model.getProductPrice());
+           //child2.child("address").push().setValue(address);
+            Intent intent  = new Intent(Selected_item.this, Payment_Gateway.class);
             startActivity(intent);
         }
        else{

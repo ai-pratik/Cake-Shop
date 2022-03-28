@@ -60,10 +60,10 @@ public class PaymentGateway extends AppCompatActivity implements PaymentResultLi
                     object.put("amount", amount);
 
                     // put mobile number
-                    object.put("prefill.contact", "9284064503");
+                    object.put("prefill.contact", "7385656630");
 
                     // put email
-                    object.put("prefill.email", "chaitanyamunje@gmail.com");
+                    object.put("prefill.email", "pratikgade5151@gmail.com");
 
                     // open razorpay to checkout activity
                     checkout.open(PaymentGateway.this, object);

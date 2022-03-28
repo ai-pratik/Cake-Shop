@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Payment_Gateway"
+            android:exported="true" />
+        <activity
             android:name=".PaymentGateway"
             android:exported="true" />
         <activity android:name=".Contact_us" />
